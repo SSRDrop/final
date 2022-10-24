@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="nav">
+        <nav>
+            <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <ul>
+                <li><a class="button" href="gallery.html">Gallery</a></li>
+                <li><a class="button" href="#">Audio</a></li>
+                <li><a class="button" href="video.html">Video</a></li>
+                <li><a class="button" href="profile.html">Profile</a></li>
+        </nav>
+        </ul>
+    </div>
+
+    <div class="cover">
+        <a class="albumcover" href="images/album.png" data-lightbox="album" data-title="tentative cover">
+            <img src="images/album.png" alt="cover">
+        </a>
+        <h1>album title undecided</h1>
+        <p>Produced by me</p>
+    </div>
+
+    <div class="songs">
+
+        <h2>broken question mark</h2>
+        <audio class="song1" controls>
+            <source src="audio/broken.mp3" type="audio/mp3">
+        </audio>
+
+        <h2>Go Go Run</h2>
+        <audio class="song2" controls>
+            <source src="audio/run.wav" type="audio/wav">
+        </audio>
+
+        <h2>Slaps</h2>
+        <audio class="song3" controls>
+            <source src="audio/slaps.wav" type="audio/wav">
+        </audio>
+
+        <div class="credits">
+            <h2>Software(s):</h2>
+            <p>Cakewalk by BandLab</p>
+            <p>LMMS</p>
+            <p>Kontakt 7 by Native Instruments</p>
+        </div>
+    </div>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>
